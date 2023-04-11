@@ -37,6 +37,11 @@ print(str_name1.lstrip()+dots)
 print(str_name1.rstrip()+dots)
 print(str_name1.strip()+dots) # both spaces are removed
 
+# replace and find method in strings
+str = "He is a beautiful dancer"
+print(str.replace(" ", "_")) # He_is_a_beautiful_dancer
+print(str.replace(" ", "_",1)) # only put _ for first whitespace
+
 
 
 
