@@ -10,3 +10,12 @@ for i in range (4):
     print()
 
 
+################### Printing Triangle in reverse order ####################
+print()
+#######################
+
+for i in range(4):
+    for j in range(4-i):
+        print("# ", end="")
+
+    print()
