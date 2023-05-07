@@ -42,7 +42,8 @@ str = "He is a beautiful dancer"
 print(str.replace(" ", "_")) # He_is_a_beautiful_dancer
 print(str.replace(" ", "_",1)) # only put _ for first whitespace
 
-
+# find method is used to check the position
+print(str.find("is"))
 
 
 
